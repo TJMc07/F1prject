@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+main {
+    display: flex;
+}
+
+
+section {
+    width: 70%;
+    padding: 15px;
+}
+
+aside {
+    width: 30%;
+    background-color: lightgrey;
+    padding: 15px;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+
+    section, aside {
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+    }
+}
